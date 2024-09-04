@@ -1,0 +1,105 @@
+<html>
+    <title>LOGIN PAGE</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+        .rectangle_pink{
+            height: 550px;
+            width: 700px;
+            background-color: rgb(229, 26, 94);
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            border-radius: 10px;
+        }
+        .white_rect{
+            background-color: white;
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            top: 170px;
+            left: 500px;
+            border-radius: 10px;
+        }
+        .login_but{
+            position: absolute;
+            top: 500px;
+            left: 758px;
+            height: 50px;
+            width: 200px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+        .login_but:hover{
+            background-color: gray;
+            color: white;
+            transition: 15ms;
+        }
+        .reg_but{
+            position: absolute;
+            top: 500px;
+            left: 550px;
+            height: 50px;
+            width: 200px;
+            cursor: pointer;
+            border: none;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+        .reg_but:hover{
+            background-color: gray;
+            color: white;
+            transition: 30ms;
+        }
+        .Head_log{
+            position: absolute;
+            color: black;
+            top: 200px;
+            left: 550px;
+            font-size: 25px;
+        }
+        .text1_grp{
+            position: absolute;
+            top: 300px;
+            left: 550px;
+            color: black;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+        .text2_grp{
+            position: absolute;
+            top: 350px;
+            left: 550px;
+            color: black;
+            font-weight: bold;
+            border-radius: 2px;
+        }
+        .text_1{
+            height: 30px;
+            width: 300px;
+            border: none;
+        }
+        
+
+    </style>
+
+    <body>
+        <div class="rectangle_pink"></div>
+        <div class="white_rect"></div>
+        <button class="login_but">LOGIN</button>
+        <button class="reg_but">REGISTER</button>
+        <p class="Head_log">LOGIN</p>
+        <div class="text1_grp">
+            <label for="text1"></label>
+            <input type="text" id="text1" name="text1" placeholder="Enter your Username" class="text_1">
+        </div>
+        <div class="text2_grp">
+            <label for="text2"></label>
+            <input type="text" id="text2" name="text2" placeholder="Enter your Password" class="text_1">
+        </div>
+    </body>
+</html>
